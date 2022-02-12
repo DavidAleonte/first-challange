@@ -1,0 +1,85 @@
+.body{
+    background-color: rgb(10, 24, 41);;
+}
+
+.main-image{
+    width: 325px;
+    height:325px;
+    border-radius: 10px;
+    margin: 10px;
+
+}    
+.text{
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.container{
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow:10px 10px 10px 10px rgba(0,0,0,0.25);
+    background-color: rgb(18, 32, 51);
+    width: 350px;
+
+}
+.creator{
+    display: flex;
+    flex:auto;
+    justify-content:flex-start;
+}
+.image-eth{
+    height: 20px;
+    margin-top: 21px;
+    padding-right: 5px;
+    
+}
+.text-eth{
+    color: aqua;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+
+}
+.price{
+    display:flex;
+    flex: content;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.time{
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    margin-bottom: -10px;
+    margin-left: 150px;
+}
+.image-clock{
+    width: 20px;
+    height:20px;
+    margin-top: 23px;
+    padding-right: 5px;
+}
+.text-clock{
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
